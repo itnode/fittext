@@ -104,8 +104,8 @@ Example:
 
         var parent = el.parentElement;
 
-        el.style.width  = parent.style.width;
-        el.style.height = parent.style.height;
+        el.style.width  = parent.clientWidth  + "px";
+        el.style.height = parent.clientHeight + "px";
 
         el.style.position = 'relative';
         el.style.overflow = 'hidden';

@@ -1,6 +1,6 @@
 {
   "name": "fit-text",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Jens Gassmann <jg@gassmann.it>"
   ],
@@ -14,14 +14,14 @@
   ],
   "main": "fit-text.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/itnode/fit-text/",
+  "homepage": "https://github.com/itnode/fittext/",
   "ignore": [
     "/.*",
     "/test/",
     "/demo/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",

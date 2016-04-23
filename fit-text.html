@@ -138,8 +138,8 @@ Example:
                 line.style.width      = el.clientWidth + "px";
                 line.style.whiteSpace = 'nowrap';
                 line.style.fontSize   = line_font_size + "px";
-            
-                max_line_width = Math.max(max_line_width, line.clientWidth);
+                line.style.lineHeight = ( line_font_size * 1.3 ) + "px";
+
             }
 
         }

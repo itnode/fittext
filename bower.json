@@ -1,6 +1,6 @@
 {
   "name": "fit-text",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "authors": [
     "Jens Gassmann <jg@gassmann.it>"
   ],
@@ -22,7 +22,6 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "fittext": "adactio/FitText.js"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",

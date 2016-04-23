@@ -1,0 +1,68 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>seed-element Demo</title>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../fit-text.html">
+    
+<style>
+    div {
+        margin: 10px;
+            float: lefT;
+                text-align: center;
+    }   
+</style>
+  </head>
+  <body>
+
+    <p>An example of <code>&lt;fit-text;</code>:</p>
+
+    <div style="width:100px; height: 100px; background: #eee">
+        <fit-text><span>Hallo welt in 100px²</span></fit-text>
+    </div>
+
+    <div style="width:100px; height: 100px; background: #eee">
+        <fit-text>
+            <span>Hallo welt in 100px²</span>
+            <span>Hallo welt in 100px²</span>
+            <span>Hallo welt in 100px²</span>
+            <span>Hallo welt in 100px²</span>
+            <span>Hallo welt in 100px²</span>
+            <span>Hallo welt in 100px²</span>
+        </fit-text>
+    </div>
+
+
+    <div style="width:200px; height: 200px; background: #eee">
+        <fit-text><span>Bad-Frankenhausen</span></fit-text>
+    </div>
+
+    <div style="width:200px; height: 200px; background: #eee">
+        <fit-text><span>Bad Franken-</span><span>hausen</span></fit-text>
+    </div>
+
+    <div style="width:500px; height: 500px; background: #eee">
+        <fit-text><span>Hallo welt in 500px²</span></fit-text>
+    </div>
+
+    <div style="width:100px; height: 100px; background: #eee">
+        <fit-text><span>Viel längerer Text in einer Box 100px²</span></fit-text>
+    </div>
+
+
+
+
+
+  </body>
+</html>

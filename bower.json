@@ -1,0 +1,31 @@
+{
+  "name": "fit-text",
+  "version": "1.0.0",
+  "authors": [
+    "Jens Gassmann <jg@gassmann.it>"
+  ],
+  "description": "Fit Text inside a given Element, wrapps fittext.js.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed",
+    "fittext"
+  ],
+  "main": "fit-text.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/itnode/fit-text/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "fittext": "adactio/FitText.js"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
